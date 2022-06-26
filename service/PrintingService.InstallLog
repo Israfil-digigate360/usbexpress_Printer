@@ -1,0 +1,14 @@
+﻿Installing assembly 'D:\usba\service\PrintingService.exe'.
+Affected parameters are:
+   assemblypath = D:\usba\service\PrintingService.exe
+   logfile = D:\usba\service\PrintingService.InstallLog
+Installing service PrintingService...
+Service PrintingService has been successfully installed.
+Creating EventLog source PrintingService in log Application...
+See the contents of the log file for the D:\usba\service\PrintingService.exe assembly's progress.
+The file is located at D:\usba\service\PrintingService.InstallLog.
+Committing assembly 'D:\usba\service\PrintingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\usba\service\PrintingService.InstallLog
+   assemblypath = D:\usba\service\PrintingService.exe

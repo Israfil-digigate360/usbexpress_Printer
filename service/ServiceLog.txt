@@ -1,0 +1,37 @@
+project Directory::D:\usba\service: 26/06/2022 03:48:01 PM
+C:\Users\Public\Documents\printer: 26/06/2022 03:48:01 PM
+81: 26/06/2022 03:48:01 PM
+USB-Tech-6230: 26/06/2022 03:48:01 PM
+Gprinter GP-3120TU: 26/06/2022 03:48:01 PM
+now time:: 1656236881311: 26/06/2022 03:48:01 PM
+System.String[] http://localhost:8000/: 26/06/2022 03:48:01 PM
+/: 26/06/2022 03:48:15 PM
+now time: 1656236895009: 26/06/2022 03:48:15 PM
+System.Collections.Generic.List`1[PrintingSerivce.Service1+A4Printer]: 26/06/2022 03:48:15 PM
+System.Collections.Generic.List`1[PrintingSerivce.Service1+TharmalPrinter]: 26/06/2022 03:48:15 PM
+from server: 26/06/2022 03:48:15 PM
+now time: 1656236895030: 26/06/2022 03:48:15 PM
+a4 printer writng start: 26/06/2022 03:48:15 PM
+thermal printer: 26/06/2022 03:48:15 PM
+thermal document preparation: 26/06/2022 03:48:15 PM
+বরিশাল: 26/06/2022 03:48:15 PM
+/: 26/06/2022 03:49:37 PM
+now time: 1656236977411: 26/06/2022 03:49:37 PM
+System.Collections.Generic.List`1[PrintingSerivce.Service1+A4Printer]: 26/06/2022 03:49:37 PM
+System.Collections.Generic.List`1[PrintingSerivce.Service1+TharmalPrinter]: 26/06/2022 03:49:37 PM
+from server: 26/06/2022 03:49:37 PM
+now time: 1656236977415: 26/06/2022 03:49:37 PM
+a4 printer writng start: 26/06/2022 03:49:37 PM
+thermal printer: 26/06/2022 03:49:37 PM
+thermal document preparation: 26/06/2022 03:49:38 PM
+বরিশাল: 26/06/2022 03:49:38 PM
+/: 26/06/2022 03:52:15 PM
+now time: 1656237135429: 26/06/2022 03:52:15 PM
+System.Collections.Generic.List`1[PrintingSerivce.Service1+A4Printer]: 26/06/2022 03:52:15 PM
+System.Collections.Generic.List`1[PrintingSerivce.Service1+TharmalPrinter]: 26/06/2022 03:52:15 PM
+from server: 26/06/2022 03:52:15 PM
+now time: 1656237135434: 26/06/2022 03:52:15 PM
+a4 printer writng start: 26/06/2022 03:52:15 PM
+thermal printer: 26/06/2022 03:52:15 PM
+thermal document preparation: 26/06/2022 03:52:16 PM
+বরিশাল: 26/06/2022 03:52:16 PM

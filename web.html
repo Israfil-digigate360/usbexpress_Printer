@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery.post demo</title>
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+
+<form action="http://localhost:8000/" id="searchForm">
+
+    Locatienummer:<input type="text" name="a" placeholder="...">
+    <br />
+    <br />
+    Bonnummer:<input type="text" name="b" placeholder="...">
+
+    <br />
+    <br />
+
+    <input type="submit" value="OK">
+</form>
+
+  <!-- the result of the search will be rendered inside this div -->
+  <div id="result"></div>
+
+    <script type="text/javascript">
+
+        // Attach a submit handler to the form
+
+        $("#searchForm").submit(function (event)
+        {
+            // Stop form from submitting normally
+            event.preventDefault();
+
+            // Get some values from elements on the page:
+            var $form = $(this),
+
+           aValue="[{\"id\":\"402\",\"cn_number\":\"1000040000402\",\"sender_contact_no\":\"01990352988\",\"sender_reference\":\"test\",\"sender_name\":\"sojeb\",\"sender_address\":\"Noakhali-HUB\",\"receiver_contact_no\":\"01990352988\",\"receiver_name\":\"popular\",\"receiver_address\":\"Barishal\",\"created_at\":\"2022-05-29 16:35:23.000\",\"print_status\":\"0\",\"total_lot_qty\":\"4\",\"condition_amount\":\".00\",\"condition_mms_charge\":\".00\",\"is_home_delivery\":\"1\",\"net_amount\":\"250.00\",\"user_name\":\"Israfil Hossain\",\"sender_branch_name\":\"DHAKA-HUB\",\"receiver_branch_name\":\"Barishal\",\"department_name\":\"Courier\",\"service_name\":\"Document\",\"item_qty\":\"1\",\"items\":\"Words with the superscript 3 are limited reserved words related to asynchrony support. You can’t use await or yield as an identifier in any function body marked with async, async*, or sync*  You can’t use await or yield as an identifier in any function body marked with async, async*, or sync or yield as an identifier in any function body marked with async, async*, or sync\" }]";
+           
+           bValue ="[{\"id\":\"402\",\"cn_number\":\"1000040000402\",\"branch_id\":\"12\",\"receiver_branch_id\":\"2\",\"sender_contact_no\":\"01990352988\",\"sender_reference\":\"test\",\"sender_name\":\"ACI\",\"receiver_contact_no\":\"01990352988\",\"receiver_name\":\"popular\",\"receiver_address\":\"Barishal\",\"created_at\":\"2022-05-29 16:35:23.000\",\"print_status\":\"0\",\"total_lot_qty\":\"4\",\"item_qty\":\"1\",\"lot_qty\":\"4\",\"lot_number\":\"1000040000402000\",\"is_home_delivery\":\"1\",\"user_name\":\"NasrullahAlJadid\",\"sender_branch_name\":\"DHAKA-HUB\",\"receiver_branch_name\":\"Barishal\",\"receiver_branch_name_bd\":\"বরিশাল\",\"department_name\":\"Courier\",\"service_name\":\"Document\",\"item_name\":\"AMBBattery\",\"unit_name\":\"Ctn\"}]";
+
+
+          var j = {
+            "a4size_printer": aValue,
+            "thermal_printer": bValue
+        };
+
+            url = $form.attr("action");
+         // alert(""+JSON.stringify(j))
+         // alert("Hello! I am an alert box!!");
+            $.post(url, JSON.stringify(j));
+
+            // Send the data using post
+           // $.post(url, { ourPrinter1: aValue, OurPrinter2: aValue });
+
+          //$.post(url,  aValue );
+
+        });
+
+    </script>
+
+</body>
+</html>
